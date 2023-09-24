@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-ones3d",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create a three-dimensional nested array filled with ones.",
   "license": "Apache-2.0",
   "author": {
@@ -37,15 +37,15 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-filled3d": "github:stdlib-js/array-base-filled3d#main",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/array-base-filled3d": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array-array": "^0.0.7",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/math-base-special-cbrt": "^0.0.7",
-    "@stdlib/math-base-special-floor": "^0.0.8",
-    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/assert-is-array-array": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/math-base-special-cbrt": "^0.1.0",
+    "@stdlib/math-base-special-floor": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
