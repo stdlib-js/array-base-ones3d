@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ones3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ones3d/tags). For example,
+
+```javascript
 import ones3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@v0.2.1-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var out = ones3d( [ 1, 2, 3 ] );
 <body>
 <script type="module">
 
-import ones3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@v0.2.1-esm/index.mjs';
+import ones3d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@esm/index.mjs';
 
 var out = ones3d( [ 1, 1, 3 ] );
 // returns [ [ [ 1.0, 1.0, 1.0 ] ] ]
