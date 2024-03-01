@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,14 +16,30 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var ones3d = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var out = ones3d( [ 1, 1, 3 ] );
-console.log( out );
-// => [ [ [ 1.0, 1.0, 1.0 ] ] ]
+import { Shape3D } from '@stdlib/types/ndarray';
 
-out = ones3d( [ 1, 3, 1 ] );
-console.log( out );
-// => [ [ [ 1.0 ], [ 1.0 ], [ 1.0 ] ] ]
+/**
+* Three-dimensional nested array.
+*/
+type Array3D<T> = Array<Array<Array<T>>>;
+
+/**
+* Returns a three-dimensional nested array filled with ones.
+*
+* @param shape - array shape
+* @returns output array
+*
+* @example
+* var out = ones3d( [ 1, 1, 3 ] );
+* // returns [ [ [ 1.0, 1.0, 1.0 ] ] ]
+*/
+declare function ones3d( shape: Shape3D ): Array3D<number>;
+
+
+// EXPORTS //
+
+export = ones3d;
