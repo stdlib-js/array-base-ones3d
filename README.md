@@ -128,6 +128,17 @@ out = ones3d( [ 1, 3, 1 ] );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/zeros3d`][@stdlib/array/base/zeros3d]</span><span class="delimiter">: </span><span class="description">create a zero-filled three-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a generic array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones2d`][@stdlib/array/base/ones2d]</span><span class="delimiter">: </span><span class="description">create a two-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones4d`][@stdlib/array/base/ones4d]</span><span class="delimiter">: </span><span class="description">create a four-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones5d`][@stdlib/array/base/ones5d]</span><span class="delimiter">: </span><span class="description">create a five-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/onesnd`][@stdlib/array/base/onesnd]</span><span class="delimiter">: </span><span class="description">create an n-dimensional nested array filled with ones.</span>
+
 </section>
 
 <!-- /.related -->
@@ -203,6 +214,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-ones3d/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-ones3d/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
+
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
+
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
+
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
+
+<!-- </related-links> -->
 
 </section>
 
