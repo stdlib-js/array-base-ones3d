@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-ones3d
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ones3d = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ones3d = require( 'path/to/vendor/umd/array-base-ones3d/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ones3d;
-})();
-</script>
+var ones3d = require( '@stdlib/array-base-ones3d' );
 ```
 
 #### ones3d( shape )
@@ -108,24 +102,14 @@ var out = ones3d( [ 1, 2, 3 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ones3d@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ones3d = require( '@stdlib/array-base-ones3d' );
 
 var out = ones3d( [ 1, 1, 3 ] );
 // returns [ [ [ 1.0, 1.0, 1.0 ] ] ]
 
 out = ones3d( [ 1, 3, 1 ] );
 // returns [ [ [ 1.0 ], [ 1.0 ], [ 1.0 ] ] ]
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -143,6 +127,17 @@ out = ones3d( [ 1, 3, 1 ] );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-base/zeros3d`][@stdlib/array/base/zeros3d]</span><span class="delimiter">: </span><span class="description">create a zero-filled three-dimensional nested array.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones`][@stdlib/array/base/ones]</span><span class="delimiter">: </span><span class="description">create a generic array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones2d`][@stdlib/array/base/ones2d]</span><span class="delimiter">: </span><span class="description">create a two-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones4d`][@stdlib/array/base/ones4d]</span><span class="delimiter">: </span><span class="description">create a four-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/ones5d`][@stdlib/array/base/ones5d]</span><span class="delimiter">: </span><span class="description">create a five-dimensional nested array filled with ones.</span>
+-   <span class="package-name">[`@stdlib/array-base/onesnd`][@stdlib/array/base/onesnd]</span><span class="delimiter">: </span><span class="description">create an n-dimensional nested array filled with ones.</span>
 
 </section>
 
@@ -219,6 +214,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/array-base-ones3d/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-ones3d/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/array/base/zeros3d]: https://github.com/stdlib-js/array-base-zeros3d
+
+[@stdlib/array/base/ones]: https://github.com/stdlib-js/array-base-ones
+
+[@stdlib/array/base/ones2d]: https://github.com/stdlib-js/array-base-ones2d
+
+[@stdlib/array/base/ones4d]: https://github.com/stdlib-js/array-base-ones4d
+
+[@stdlib/array/base/ones5d]: https://github.com/stdlib-js/array-base-ones5d
+
+[@stdlib/array/base/onesnd]: https://github.com/stdlib-js/array-base-onesnd
+
+<!-- </related-links> -->
 
 </section>
 
